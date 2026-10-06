@@ -72,7 +72,7 @@ Each link opens the answer on its evidence page. The source list is under the an
 
 ## What this does and does not show
 
-- It shows that searching in Russian brought back Russian state or state-linked media, and searching in English did not, for the same model and round.
+- Russian state or state-linked media appeared in the saved Russian search results. None appeared in the matching saved English results.
 - It does not show that a model chose, read, trusted or repeated these sources. Search could be supplied by OpenRouter or run by the model. Systems differ in how much of the source list they return.
 - Some saved source lists are incomplete, so 14 is a minimum. One Ukrainian answer had a RIA link in a list that was cut short when stored; it is not on the evidence page, so we do not count it.
 - Some links point to a search redirect instead of a website. We could not see where these lead.

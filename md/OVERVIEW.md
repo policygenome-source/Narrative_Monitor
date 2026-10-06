@@ -90,7 +90,7 @@ All seven models gave answers with no confirmed difference in meaning across lan
 
 This applies to these tests. It is not a guarantee about future answers.
 
-## Search in Russian brought back Russian state media
+## Search in Russian brought back Russian state or state-linked media
 
 Ten audits had web search on. In five of them, the search results saved with Russian answers included Russian state or state-linked media: RIA, RT, Sputnik, Izvestia, REN TV, InoSMI or fondsk.ru, a site under EU sanctions.
 We compared each Russian answer with the English answer of the same model in the same round.
