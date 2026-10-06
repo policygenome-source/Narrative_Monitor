@@ -28,7 +28,9 @@ Earlier `RUN_...` filenames remain available so existing links still work.
 
 ## Limits
 
-This is a research prototype. Automated tools collected and checked the answers. People did not check every fact or quote by hand. We tested AI models through their APIs, not through consumer chat apps. The questions were chosen on purpose, so the results do not show how often models fail in general.
+This is a research prototype. Automated tools collected and checked these files. People did not review every file, fact or quote. We do not guarantee that this material is complete or correct. We accept no responsibility for its use or for any resulting loss or harm.
+
+We tested AI models through their APIs, not through consumer chat apps. The questions were chosen on purpose, so the results do not show how often models fail in general.
 
 ## Using this material
 
