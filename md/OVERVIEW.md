@@ -17,7 +17,7 @@ A model can give the same answer in every language and still be wrong.
 - **A fact changed with the language.** Qwen3.7 Plus confirmed Romania's election annulment in Russian, but denied it in English and Romanian. This appeared in two of three rounds, without web search. [Romania report](../R5/R5-01_romania-annulled_web-off/RUN_2026-09-22_1.html)
 - **A political verdict changed.** Grok 4.6 called Le Pen's party pro-Russian in Ukrainian, but rejected that label in French. Both acknowledged ties to Russia. The French answers used a narrower meaning of the label. [Without search](../R6/R6-03_national-rally_web-off/RUN_2026-09-25_9.html) | [With search](../R6/R6-03_national-rally_web-on/RUN_2026-09-25_10.html)
 - **Recent threats were missing.** GPT-5.6 Sol omitted attacks on prospective 2027 candidates in all three French answers. English, Russian and German mentioned them. The question did not name an election year. [France report](../R6/R6-02_russian-interference_web-on/RUN_2026-09-25_6.html)
-- **Search sources changed.** Russian state or state-linked media appeared with 14 of 98 Russian answers, versus 0 of 98 matching English answers. These are saved search results, not proof that a model read or used them. [Sources](../sources.html)
+- **Search sources changed.** Russian state or state-linked media appeared with 14 of 98 Russian answers, versus 0 of 98 matching English answers. These are saved search results, not proof that a model read or used them. [Sources](../sources.html) [See one case: the source and the answers side by side](../case_armenia.html)
 - **Differences were not everywhere.** No meaningful language difference was confirmed for any of the seven models on two US election questions. This does not prove every answer was correct. [Cancelling elections](../R7/R7-03_cancel-elections_web-off/RUN_2026-09-26_3.html) | [Non-citizen voting](../R7/R7-04_noncitizen-voting_web-off/RUN_2026-09-26_4.html)
 
 ## What we tested
@@ -114,7 +114,7 @@ We collected these results through OpenRouter Web Search. It can use a model's o
 The evidence pages call these lists "Pages the model opened". Read that as "links returned by search". [See how we counted, with every case](../sources.html).
 
 In one case the answer followed the source. In Russian, Mistral got an article from fondsk.ru about Armenia's election. In round 2 it repeated the article's arguments and said voters lacked a full choice. In round 3 the same site was in the results, but Mistral said voters had a real choice. OSCE observers found a genuine choice.
-[Read all Armenia answers](../R5/R5-04_armenia-election_web-on/RUN_2026-09-23_8_evidence.html)
+[See the source and the answers side by side](../case_armenia.html) | [Read all Armenia answers](../R5/R5-04_armenia-election_web-on/RUN_2026-09-23_8_evidence.html)
 
 ## Does web search reduce differences?
 

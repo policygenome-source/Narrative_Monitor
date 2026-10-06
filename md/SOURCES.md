@@ -80,6 +80,6 @@ Each link opens the answer on its evidence page. The source list is under the an
 
 ## One case where the answer followed the source
 
-In the Armenia audit, Mistral Medium 3.5 got an article from fondsk.ru through search. In round 2, its Russian answer repeated the article's arguments and said voters lacked a full choice. In round 3, the same site was in the results, but the answer said voters had a real choice. OSCE observers found that voters had a genuine choice. See cases 3 and 4 above.
+In the Armenia audit, Mistral Medium 3.5 got an article from fondsk.ru through search. In round 2, its Russian answer repeated the article's arguments and said voters lacked a full choice. In round 3, the same site was in the results, but the answer said voters had a real choice. OSCE observers found that voters had a genuine choice. See cases 3 and 4 above, and [the source and the answers side by side](../case_armenia.html).
 
 [Home](../index.html) | [Method & limits](../overview.html)

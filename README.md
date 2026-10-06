@@ -20,7 +20,7 @@ NotebookLM can make mistakes. Check its answers against the original answers in 
 | `index.html` | Main findings and all audits |
 | `R5/`, `R6/`, `R7/` | One folder per audit: a short report (`RUN_ID.html`) and every answer in full (`RUN_ID_evidence.html`) |
 | `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `CASE_ARMENIA.md`, `all_reports.md` and 23 question-named full answer files |
-| `overview.html`, `sources.html` | Method, limits and the source count as web pages |
+| `overview.html`, `sources.html`, `case_armenia.html` | Method, limits, the source count and the Armenia case as web pages |
 
 Each evidence page shows every answer in its original language and in English.
 The `md/` folder contains 27 files for NotebookLM, including the Armenia case note.
