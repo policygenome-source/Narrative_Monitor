@@ -1,6 +1,6 @@
 # Narrative Monitor: all audit reports
 
-Every short report in one file. Full answers are in the *_evidence.md files.
+Every short report in one file. Full answers are in the question-named *_answers.md files.
 
 
 ---

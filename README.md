@@ -19,10 +19,12 @@ NotebookLM can make mistakes. Check its answers against the original answers in 
 |---|---|
 | `index.html` | Main findings and all audits |
 | `R5/`, `R6/`, `R7/` | One folder per audit: a short report (`RUN_ID.html`) and every answer in full (`RUN_ID_evidence.html`) |
-| `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `all_reports.md` and one evidence file per audit |
+| `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `all_reports.md` and question-named report and answer files for each audit |
 | `overview.html`, `sources.html` | Method, limits and the source count as web pages |
 
 Each evidence page shows every answer in its original language and in English.
+The MD download names start with a short question, followed by the Run ID and `report` or `answers`.
+Earlier `RUN_...` filenames remain available so existing links still work.
 
 ## Limits
 
