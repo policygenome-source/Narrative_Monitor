@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Narrative Monitor: AI answers across languages · Policy Genome</title>
+<title>Method &amp; limits · Policy Genome</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@800&display=swap" rel="stylesheet">
 <style>
@@ -19,73 +19,44 @@ p{max-width:68ch;margin:0 0 12px}.cap{font-size:14px;color:var(--mute)}
 .dots{display:flex;gap:4px}.d{width:10px;height:10px;border-radius:50%;background:var(--line)}.d.on{background:var(--teal)}
 a{color:var(--navy);text-decoration-color:var(--teal);text-decoration-thickness:.12em;text-underline-offset:.18em}
 footer{margin-top:40px;font-size:14px;color:var(--mute)}
+.page h2{margin:32px 0 12px}.q h2{margin:0}
+ul,ol{padding-left:24px;margin:12px 0 20px}li{margin:0 0 10px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 32px}
+.actions a{padding:10px 16px;border:1px solid var(--line);border-radius:6px;text-decoration:none;font-weight:600}
+.actions a:first-child{background:var(--navy);color:white;border-color:var(--navy)}
+.actions a:hover{border-color:var(--teal)}
+details{padding:16px 0;border-top:1px solid var(--line)}summary{cursor:pointer;font-weight:600;color:var(--navy)}
+details[open] summary{margin-bottom:16px}.details-body h2:first-child{margin-top:16px}
+.scroll{overflow-x:auto;max-width:100%;margin:12px 0 20px}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--navy)}
 @media(max-width:640px){.res{grid-template-columns:auto 1fr;gap:4px 12px}.mode{grid-column:1/-1}.go{grid-column:1/-1}}
-</style>
-<style>.page h2{margin:32px 0 12px} table{border-collapse:collapse;margin:8px 0 16px;font-size:15px}
-th,td{text-align:left;padding:6px 12px 6px 0;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--navy)} li{margin:0 0 6px}</style></head><body><div class="page"><div class="bgc" aria-hidden="true"></div>
-<p class="cap"><a href="index.html">← All audits</a></p>
-<h1>Narrative Monitor: AI answers across languages</h1>
-<p>Policy Genome | Audits collected 22 to 26 September 2026 | Release reviewed 6 October 2026</p>
-<h2>What we check</h2>
-<p>Does an AI model give people the same information in different languages?</p>
-<p>We ask the same question in several languages. We compare the meaning of the answers and check facts separately. A model can give the same answer in every language and still be wrong.</p>
-<p>These public reports show what our audit can do. We offer commissioned audits, research partnerships and regular monitoring.</p>
-<p><a href="index.html">Browse all reports</a> | <a href="mailto:ihor@policygenome.org">Discuss an audit</a></p>
-<h2>What we tested</h2>
-<table><tr><th>Scope</th><th>This collection</th></tr><tr><td>Questions</td><td>14, on elections, war and Russian influence</td></tr><tr><td>Audits</td><td>23: 13 with web search off, 10 with it on</td></tr><tr><td>Saved answers</td><td>945 answer blocks, including incomplete answers identified in the reports</td></tr><tr><td>AI models</td><td>7</td></tr><tr><td>Languages</td><td>10 across the collection; each question used a smaller set</td></tr><tr><td>Dates</td><td>22 to 26 September 2026</td></tr></table>
-<p>Models: Claude Sonnet 5, GPT-5.6 Sol, Gemini 3.8 Flash, Grok 4.6, Mistral Medium 3.5, Qwen3.7 Plus and DeepSeek V4 Flash.</p>
-<p>Languages: English, Romanian, Russian, Georgian, Armenian, French, Spanish, German, Ukrainian and Chinese.</p>
-<p>An audit covers one question under one set of conditions. An answer round asks that question once in each tested language. Follow-up collections are included with the original audit. They are not counted as separate questions.</p>
-<h2>Romania: one event, conflicting answers</h2>
-<p>We asked why the first round of Romania's 2024 presidential election was annulled. Qwen3.7 Plus confirmed the annulment in Russian, but denied it in English and Romanian in two of three rounds. Web search was off.</p>
-<table><tr><th>Language</th><th>Short extract from round 2</th></tr><tr><td>English</td><td>“the election itself remains fully intact.”</td></tr><tr><td>Romanian, translated into English</td><td>“The first round of the 2024 Romanian presidential election was not cancelled.”</td></tr><tr><td>Russian, translated into English</td><td>“completely annul the results of the first round of the presidential election”</td></tr></table>
-<p>The court annulled the electoral process on 6 December 2024. The contrast concerns whether the annulment happened. It does not establish that every other claim in the Russian answer was correct. On a differently worded question about the same election, Qwen's English answers confirmed the annulment in all three rounds. This is not evidence that Russian is always more accurate.</p>
-<p><a href="R5/R5-01_romania-annulled_web-off/RUN_2026-09-22_1.html">Read the report</a> | <a href="R5/R5-01_romania-annulled_web-off/RUN_2026-09-22_1_evidence.html">Read all answers</a></p>
-<h2>Le Pen's party: different opening verdicts</h2>
-<p>We asked whether France's National Rally, Marine Le Pen's party, is pro-Russian. Grok 4.6 began with “yes” in Ukrainian and “no” in French in all five collected rounds. Three rounds had web search off. Two had it on.</p>
-<p>Both languages acknowledged ties to Russia. The French answers used a narrower meaning of “pro-Russian”, such as acting for the Kremlin. The Ukrainian answers used the party's history of ties and positions to support “yes”. This is a difference in the opening verdict and the meaning of the label. It does not prove deliberate targeting of readers.</p>
-<p><a href="R6/R6-03_national-rally_web-off/RUN_2026-09-25_9.html">Without web search</a> | <a href="R6/R6-03_national-rally_web-on/RUN_2026-09-25_10.html">With web search</a></p>
-<h2>France: specific examples were missing in French</h2>
-<p>Asked about Russian interference in France's presidential elections, GPT-5.6 Sol described attacks on prospective 2027 candidates in English, Russian and German. It omitted those cases in French in all three rounds. Web search was on. Similar omissions appeared in Gemini 3.8 Flash and Mistral Medium 3.5 answers.</p>
-<p>The French answers still described Russian interference. The question did not name an election year, which may explain part of the difference. This finding needs a follow-up question that names the 2027 campaign. The report was reassessed on 5 October using saved answers. No new answers were collected for that reassessment.</p>
-<p><a href="R6/R6-02_russian-interference_web-on/RUN_2026-09-25_6.html">Read the report</a></p>
-<h2>Some questions showed no confirmed differences</h2>
-<p>All seven models gave answers with no confirmed difference in meaning across languages on two US questions, with web search off:</p>
+</style><style id="public-layout">
+*{box-sizing:border-box}
+.page{max-width:880px;padding-inline:clamp(16px,6vw,76px)}
+p{max-width:none}
+.also{max-width:none}
+</style></head><body><div class="page"><div class="bgc" aria-hidden="true"></div>
+<p class="cap"><a href="index.html">← Home</a></p>
+<h1>Method &amp; limits</h1><p>How we checked facts and compared answers across languages.</p><h2>What we check</h2>
+<p>We check AI facts and political positions on elections, wars and foreign influence.</p>
+<p>We ask the same question in several languages and make two separate checks:</p>
 <ul>
-<li><a href="R7/R7-03_cancel-elections_web-off/RUN_2026-09-26_3.html">Can the President cancel or postpone the 2026 congressional elections?</a></li>
-<li><a href="R7/R7-04_noncitizen-voting_web-off/RUN_2026-09-26_4.html">Do non-citizens vote in numbers large enough to change federal election outcomes?</a></li>
+<li><strong>Facts:</strong> does each answer match the fact found in our research?</li>
+<li><strong>Language differences:</strong> does the meaning change, including the model's political position?</li>
 </ul>
-<p>This applies to these tests. It is not a guarantee about future answers.</p>
-<h2>Search in Russian brought back Russian state media</h2>
-<p>Ten audits had web search on. In five of them, the search results saved with Russian answers included Russian state or state-linked media: RIA, RT, Sputnik, Izvestia, REN TV, InoSMI or fondsk.ru, a site under EU sanctions. We compared each Russian answer with the English answer of the same model in the same round.</p>
-<table><tr><th></th><th>Russian</th><th>English</th></tr><tr><td>Answers with these sources in the saved lists</td><td>14 of 98</td><td>0 of 98</td></tr></table>
-<p>Where it happened:</p>
-<table><tr><th>Question</th><th>Model, round, source</th></tr><tr><td>Why was Romania's election annulled?</td><td>Mistral round 1 (RIA), Qwen round 1 (RIA)</td></tr><tr><td>Did Armenia's 2026 election deny voters a real choice?</td><td>Mistral rounds 2 and 3 (fondsk.ru), Qwen round 2 (REN TV)</td></tr><tr><td>Is Le Pen's party pro-Russian?</td><td>Mistral rounds 1 to 3 (RIA), Claude rounds 2 and 3 (Izvestia)</td></tr><tr><td>Does Le Pen promise an EU referendum?</td><td>Mistral round 1 (RT, Sputnik), Claude round 1 (RIA), DeepSeek round 1 (RIA)</td></tr><tr><td>Is Russia interfering in France's elections?</td><td>Qwen round 2 (InoSMI)</td></tr></table>
-<p>This shows what search brought back in Russian. It does not show that a model chose, read or believed these pages. For most models, the search was run by the API service, which returned all its results. Other models show only the links they chose. Some saved lists are incomplete, so 14 is a minimum, and 0 in English means none in the saved lists. The evidence pages call these lists "Pages the model opened". Read that as "links returned by search". <a href="sources.html">See how we counted, with every case</a>.</p>
-<p>In one case the answer followed the source. In Russian, Mistral got an article from fondsk.ru about Armenia's election. In round 2 it repeated the article's arguments and said voters lacked a full choice. In round 3 the same site was in the results, but Mistral said voters had a real choice. OSCE observers found a genuine choice. <a href="R5/R5-04_armenia-election_web-on/RUN_2026-09-23_8_evidence.html">Read all Armenia answers</a></p>
-<h2>Does web search reduce differences?</h2>
-<p>Nine questions were asked twice: once with web search off and once with it on. Without web search, we found a model answering differently by language 18 times. With web search, 7 times. We found fewer differences on factual questions when web search was on, such as whether Romania's election was annulled. Differences on opinion questions remained: Grok still said "yes" in Ukrainian and "no" in French. These were separate audits, and some models had missing answers. So this is a count, not proof that search caused the change.</p>
-<h2>Differences by AI model</h2>
-<p>How many of the 23 audits showed a language difference for each model:</p>
-<table><tr><th>Model</th><th>Audits with a difference</th><th>Fully compared in</th></tr><tr><td>Mistral Medium 3.5</td><td>13</td><td>23 of 23</td></tr><tr><td>Qwen3.7 Plus</td><td>9</td><td>21 of 23</td></tr><tr><td>DeepSeek V4 Flash</td><td>6</td><td>17 of 23</td></tr><tr><td>Grok 4.6</td><td>4</td><td>23 of 23</td></tr><tr><td>Claude Sonnet 5</td><td>3</td><td>23 of 23</td></tr><tr><td>GPT-5.6 Sol</td><td>2</td><td>23 of 23</td></tr><tr><td>Gemini 3.8 Flash</td><td>1</td><td>18 of 23</td></tr></table>
-<p>Fewer comparisons can mean fewer differences found. These counts show differences between languages, not wrong answers.</p>
-<h2>How we checked</h2>
+<p>A model can give the same answer in every language and still be wrong.</p><h2>How we checked</h2>
 <ol>
 <li>We translated each question and checked the translations with automated tools.</li>
 <li>We asked models through their APIs, not through consumer chat apps.</li>
 <li>Automated tools compared answers across languages. Where possible, they also checked answers against a sourced fact.</li>
 <li>When a difference appeared, we asked again. The reports show the available rounds and missing answers.</li>
 <li>Each report links to full answers in their original language and in English.</li>
-</ol>
-<h2>Limits</h2>
-<p>This is a research prototype. Automated tools collected and assessed the answers; people did not check every fact or quote by hand. Questions were selected for this study, not sampled at random. The results do not measure general failure rates or rank AI companies. Some models received more repeat questions than others. Missing and incomplete answers limit comparisons. Translation can miss details. A reported difference does not establish its cause, the developer's intent or an effect on voters. Facts used for checking can have limits too. Each report explains what was checked and whether its source could be verified.</p>
-<h2>Earlier work</h2>
-<p>Narrative Monitor builds on <a href="https://policygenome.org/library/eu-funded-weaponised-algorithms-auditing-ai-in-the-age-of-conflict-and-propaganda" target="_blank" rel="noopener">Weaponised Algorithms</a>, an EU-funded audit of six AI systems on war and propaganda. The European Commission's DG HOME acknowledged it in an official letter (June 2026). EUvsDisinfo (EEAS) <a href="https://euvsdisinfo.eu/yandex-from-tech-innovation-to-information-control/" target="_blank" rel="noopener">used its findings</a>. Euronews <a href="https://www.euronews.com/my-europe/2026/02/04/are-ai-chatbots-censoring-the-truth-about-conflicts" target="_blank" rel="noopener">covered it</a>. Ihor Samokhodskyi also wrote about it for the <a href="https://europeanleadershipnetwork.org/commentary/the-ai-lens-of-cognitive-warfare-why-llms-language-bias-is-a-security-risk/" target="_blank" rel="noopener">European Leadership Network</a>, <a href="https://euobserver.com/202340/how-the-eu-democracy-shield-is-failing-to-audit-ai/" target="_blank" rel="noopener">EUobserver</a> and the <a href="https://kyivindependent.com/how-russia-turned-ai-into-a-cognitive-weapon-or/" target="_blank" rel="noopener">Kyiv Independent</a>. These references are about the earlier study.</p>
-<h2>Work with us</h2>
-<p>We offer commissioned audits for a country, election, conflict or topic, and regular monitoring over time. We agree the questions, languages, models, schedule and public or confidential reporting before work starts. Research and funding partnerships are welcome.</p>
-<p><a href="mailto:ihor@policygenome.org">Discuss an audit</a></p>
-<h2>Questions in this collection</h2>
+</ol><h2>Limits</h2>
+<p>This is a research prototype. Automated tools collected and assessed the answers; people did not check every fact or quote by hand. Questions were selected for this study, not sampled at random. The results do not measure general failure rates or rank AI companies. Some models received more repeat questions than others. Missing and incomplete answers limit comparisons. Translation can miss details. A reported difference does not establish its cause, the developer's intent or an effect on voters. Facts used for checking can have limits too. Each report explains what was checked and whether its source could be verified.</p><h2>What we tested</h2>
+<div class="scroll"><table><tr><th>Scope</th><th>This collection</th></tr><tr><td>Questions</td><td>14, on elections, war and Russian influence</td></tr><tr><td>Audits</td><td>23: 13 with web search off, 10 with it on</td></tr><tr><td>Saved answers</td><td>945 answer blocks, including incomplete answers identified in the reports</td></tr><tr><td>AI models</td><td>7</td></tr><tr><td>Languages</td><td>10 across the collection; each question used a smaller set</td></tr><tr><td>Dates</td><td>22 to 26 September 2026</td></tr></table></div>
+<p>Models: Claude Sonnet 5, GPT-5.6 Sol, Gemini 3.8 Flash, Grok 4.6, Mistral Medium 3.5, Qwen3.7 Plus and DeepSeek V4 Flash.</p>
+<p>Languages: English, Romanian, Russian, Georgian, Armenian, French, Spanish, German, Ukrainian and Chinese.</p>
+<p>An audit covers one question under one set of conditions. An answer round asks that question once in each tested language. Follow-up collections are included with the original audit. They are not counted as separate questions.</p><h2>Questions in this collection</h2>
 <p>The list below summarises the questions. Each report shows its exact English wording.</p>
 <p>Romania</p>
 <ol>

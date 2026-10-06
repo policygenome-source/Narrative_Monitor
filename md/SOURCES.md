@@ -1,4 +1,4 @@
-# How we counted Russian state media in search results
+# Search sources
 
 Policy Genome | Narrative Monitor | Counted 6 October 2026 from the public evidence pages
 
@@ -23,6 +23,13 @@ We also compared the other languages with English in the same way. None of them 
 | Ukrainian | 0 of 12 |
 | Chinese | 0 of 10 |
 | Georgian | 0 of 6 |
+
+## How search was provided
+
+We collected answers through OpenRouter with Web Search enabled.
+OpenRouter can use a model's own search or provide search through its service.
+Web search was available, but it was not always run by the model itself.
+The saved links do not always identify which search engine handled a request.
 
 ## What we counted
 
@@ -66,7 +73,7 @@ Each link opens the answer on its evidence page. The source list is under the an
 ## What this does and does not show
 
 - It shows that searching in Russian brought back Russian state or state-linked media, and searching in English did not, for the same model and round.
-- It does not show that a model chose, read, trusted or repeated these sources. For most models, the search was run by the API service, which returned all its results. Other models show only the links they chose.
+- It does not show that a model chose, read, trusted or repeated these sources. Search could be supplied by OpenRouter or run by the model. Systems differ in how much of the source list they return.
 - Some saved source lists are incomplete, so 14 is a minimum. One Ukrainian answer had a RIA link in a list that was cut short when stored; it is not on the evidence page, so we do not count it.
 - Some links point to a search redirect instead of a website. We could not see where these lead.
 - The questions were chosen on purpose. This is not a measure of how often this happens in general.
@@ -75,4 +82,4 @@ Each link opens the answer on its evidence page. The source list is under the an
 
 In the Armenia audit, Mistral Medium 3.5 got an article from fondsk.ru through search. In round 2, its Russian answer repeated the article's arguments and said voters lacked a full choice. In round 3, the same site was in the results, but the answer said voters had a real choice. OSCE observers found that voters had a genuine choice. See cases 3 and 4 above.
 
-[Back to the overview](../overview.html) | [All audits](../index.html)
+[Home](../index.html) | [Method & limits](../overview.html)

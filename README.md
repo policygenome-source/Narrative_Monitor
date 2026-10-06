@@ -1,14 +1,14 @@
-# Narrative Monitor: AI answers across languages
+# Narrative Monitor
 
-Does AI give people the same answer in every language? We check.
+We check AI facts and political positions, and whether answers change with the language.
 
 We asked 7 AI models the same questions in 10 languages: elections in Romania, Georgia, Armenia, France and the US, the MH17 downing and Russian influence. This repository holds the evidence: 23 audits, 945 saved answers, collected 22 to 26 September 2026.
 
 ## Start here
 
 - **Website:** https://policygenome-source.github.io/Narrative_Monitor/
-- **Overview, findings and limits:** [overview.html](https://policygenome-source.github.io/Narrative_Monitor/overview.html)
-- **How we counted Russian state media in search results:** [sources.html](https://policygenome-source.github.io/Narrative_Monitor/sources.html)
+- **Method & limits:** [overview.html](https://policygenome-source.github.io/Narrative_Monitor/overview.html)
+- **Sources:** [sources.html](https://policygenome-source.github.io/Narrative_Monitor/sources.html)
 - **Ask questions about the study in NotebookLM:** https://notebook.google.com/notebook/e2a20d9b-c928-49aa-b794-d1e030728543
 
 NotebookLM can make mistakes. Check its answers against the original answers in the reports.
@@ -17,10 +17,10 @@ NotebookLM can make mistakes. Check its answers against the original answers in 
 
 | Folder or file | What it is |
 |---|---|
-| `index.html` | List of all audits |
+| `index.html` | Main findings and all audits |
 | `R5/`, `R6/`, `R7/` | One folder per audit: a short report (`RUN_ID.html`) and every answer in full (`RUN_ID_evidence.html`) |
 | `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `all_reports.md` and one evidence file per audit |
-| `overview.html`, `sources.html` | The overview and the source count as web pages |
+| `overview.html`, `sources.html` | Method, limits and the source count as web pages |
 
 Each evidence page shows every answer in its original language and in English.
 
