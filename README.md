@@ -1,6 +1,6 @@
 # Narrative Monitor
 
-We check AI facts and political positions, and whether answers change with the language.
+We check how AI answers questions and expresses political positions, and whether answers change with the language.
 
 We asked 7 AI models the same questions in 10 languages: elections in Romania, Georgia, Armenia, France and the US, the MH17 downing and Russian influence. This repository holds the evidence: 23 audits, 945 saved answers, collected 22 to 26 September 2026.
 

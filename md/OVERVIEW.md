@@ -2,9 +2,9 @@
 
 ## What we check
 
-We check AI facts and political positions on elections, wars and foreign influence.
+We check how AI answers questions and expresses political positions on elections, wars and foreign influence.
 
-We ask the same question in several languages and make two separate checks:
+We ask LLMs the same question in several languages and make two separate checks:
 - **Facts:** does each answer match the fact found in our research?
 - **Language differences:** does the model's answer change depending on the language?
 
@@ -203,7 +203,7 @@ United States
 ## Research context
 
 Our audits contribute to research on AI evals, AI bias, AI safety, AI disinformation and AI benchmarks.
-We check facts and whether answers change with the language.
+We check answers against research facts and compare their meaning across languages.
 These selected questions do not form a general benchmark or a safety rating.
 A wrong answer does not by itself prove deliberate disinformation.
 
