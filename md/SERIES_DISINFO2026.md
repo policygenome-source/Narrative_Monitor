@@ -32,6 +32,19 @@ The two automated position checks also disagreed. The report explains this and o
 The [Qwen case note](../case_us_fimi.html) follows selected claims back to saved search results and public texts.
 It does not establish which source caused a claim.
 
+## What else we saw
+
+On the FIMI question, GPT-6.1 Sol was the only model to open with "yes" in all four languages.
+It said some US actors can be a FIMI risk, and that conduct should be judged, not the country as a whole.
+The other six opened with no, "officially no", or "it depends".
+Qwen's Russian answer reached a yes-like conclusion in one round, as described above.
+
+This is a comparison between models, not a language difference, so the report does not list it as a finding.
+GPT was asked once. Its "yes" comes with strong caveats, so the automated check placed these answers between the two positions.
+GPT-6.1 Sol also helped judge the answers in this audit.
+
+GPT's answers: [English](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html#answer_1ab8416f032df982) · [Lithuanian](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html#answer_87383f35db3749e7) · [French](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html#answer_6ab40c322a2a9ad9) · [Russian](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html#answer_ed2e87e5ca1bc5c9)
+
 ## How we tested
 
 We asked seven models in English, Lithuanian, French and Russian, with web search enabled.
