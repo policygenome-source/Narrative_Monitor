@@ -2,12 +2,15 @@
 
 We check how AI answers questions and expresses political positions, and whether answers change with the language.
 
-We asked 7 AI models the same questions in 10 languages: elections in Romania, Georgia, Armenia, France and the US, the MH17 downing and Russian influence. This repository holds the evidence: 23 audits, 945 saved answers, collected 22 to 26 September 2026.
+We asked 7 AI models the same questions in 10 languages: elections in Romania, Georgia, Armenia, France and the US, the MH17 downing and Russian influence. The September collection contains 23 audits and 945 saved answers, collected 22 to 26 September 2026.
+
+Six further audits were collected on 8 and 9 October 2026, with 214 saved answers. They cover the #Disinfo2026 conference, FIMI and three antisemitism-related questions. Each series explains its results and limits.
 
 ## Start here
 
 - **Website:** https://policygenome-source.github.io/Narrative_Monitor/
 - **Method & limits:** [overview.html](https://policygenome-source.github.io/Narrative_Monitor/overview.html)
+- **October series:** [Conference and FIMI](https://policygenome-source.github.io/Narrative_Monitor/series_disinfo2026.html) · [Antisemitism-related claims](https://policygenome-source.github.io/Narrative_Monitor/series_antisemitism.html)
 - **Sources:** [sources.html](https://policygenome-source.github.io/Narrative_Monitor/sources.html)
 - **Ask questions about the study in NotebookLM:** https://notebook.google.com/notebook/e2a20d9b-c928-49aa-b794-d1e030728543
 
@@ -18,12 +21,12 @@ NotebookLM can make mistakes. Check its answers against the original answers in 
 | Folder or file | What it is |
 |---|---|
 | `index.html` | Main findings and all audits |
-| `R5/`, `R6/`, `R7/` | One folder per audit: a short report (`RUN_ID.html`) and every answer in full (`RUN_ID_evidence.html`) |
-| `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `CASE_ARMENIA.md`, `all_reports.md` and 23 question-named full answer files |
-| `overview.html`, `sources.html`, `case_armenia.html` | Method, limits, the source count and the Armenia case as web pages |
+| `R5/`, `R6/`, `R7/`, `R8/`, `R9/` | One folder per audit: a short report (`RUN_ID.html`) and every answer in full (`RUN_ID_evidence.html`) |
+| `md/` | The same texts as Markdown, for AI tools: `OVERVIEW.md`, `SOURCES.md`, `CASE_ARMENIA.md`, `CASE_US_FIMI.md`, `SERIES_DISINFO2026.md`, `SERIES_ANTISEMITISM.md`, `all_reports.md` and 29 question-named full answer files |
+| `overview.html`, `sources.html`, `case_armenia.html`, `case_us_fimi.html`, `series_disinfo2026.html`, `series_antisemitism.html` | Method, limits, the September source count, case notes and October series introductions |
 
 Each evidence page shows every answer in its original language and in English.
-The `md/` folder contains 27 files for NotebookLM, including the Armenia case note.
+The `md/` folder includes thematic introductions and case notes for NotebookLM.
 Full answer filenames start with a short question, followed by the Run ID and `answers`.
 Separate MD reports are not needed because every report is in `all_reports.md`.
 

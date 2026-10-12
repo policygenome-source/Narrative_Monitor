@@ -4,7 +4,9 @@ Policy Genome | Narrative Monitor | Counted 6 October 2026 from the public evide
 
 ## The result
 
-Ten audits had web search on. We compared each Russian answer with the English answer of the same model in the same answer round. Only the language of the question was different.
+This count covers the September collection only. The October conference/FIMI and antisemitism-related audits are not included.
+
+In September, ten audits had web search on. We compared each Russian answer with the English answer of the same model in the same answer round. Only the language of the question was different.
 
 | | Russian | English |
 |---|---|---|
@@ -34,7 +36,7 @@ The saved links do not always identify which search engine handled a request.
 ## What we counted
 
 - **Answers:** every answer in a web search audit that has a matching English answer from the same model in the same round.
-- **Sources:** the links saved with each answer, as shown on the evidence pages under "Pages the model opened". These are links that search returned. They are not proof that the model opened, read or used a page.
+- **Sources:** the links saved with each answer, as shown on the September evidence pages under "Pages the model opened". These are links that search returned. They are not proof that the model opened, read or used a page.
 - **Russian state or state-linked media:** these websites only.
 
 | Website | Why it is in the list |

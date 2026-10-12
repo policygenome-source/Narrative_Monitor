@@ -14,6 +14,8 @@ A model can give the same answer in every language and still be wrong.
 
 ## Main findings
 
+These findings come from the September collection: 23 audits, collected 22 to 26 September 2026. The October series are listed separately below.
+
 - **A fact changed with the language.** Qwen3.7 Plus confirmed Romania's election annulment in Russian, but denied it in English and Romanian. This appeared in two of three rounds, without web search. [Romania report](../R5/R5-01_romania-annulled_web-off/RUN_2026-09-22_1.html)
 - **A political verdict changed.** Grok 4.6 called Le Pen's party pro-Russian in Ukrainian, but rejected that label in French. Both acknowledged ties to Russia. The French answers used a narrower meaning of the label. [Without search](../R6/R6-03_national-rally_web-off/RUN_2026-09-25_9.html) | [With search](../R6/R6-03_national-rally_web-on/RUN_2026-09-25_10.html)
 - **Recent threats were missing.** GPT-5.6 Sol omitted attacks on prospective 2027 candidates in all three French answers. English, Russian and German mentioned them. The question did not name an election year. [France report](../R6/R6-02_russian-interference_web-on/RUN_2026-09-25_6.html)
@@ -21,6 +23,9 @@ A model can give the same answer in every language and still be wrong.
 - **Differences were not everywhere.** No meaningful language difference was confirmed for any of the seven models on two US election questions. This does not prove every answer was correct. [Cancelling elections](../R7/R7-03_cancel-elections_web-off/RUN_2026-09-26_3.html) | [Non-citizen voting](../R7/R7-04_noncitizen-voting_web-off/RUN_2026-09-26_4.html)
 
 ## What we tested
+
+The table and main findings describe the September collection. Six further audits were collected on 8 and 9 October 2026.
+Read the [conference and FIMI series](../series_disinfo2026.html) and the [antisemitism-related series](../series_antisemitism.html) for their results and limits.
 
 | Scope | This collection |
 |---|---|
@@ -92,7 +97,7 @@ This applies to these tests. It is not a guarantee about future answers.
 
 ## Search in Russian brought back Russian state or state-linked media
 
-Ten audits had web search on. In five of them, the search results saved with Russian answers included Russian state or state-linked media: RIA, RT, Sputnik, Izvestia, REN TV, InoSMI or fondsk.ru, a site under EU sanctions.
+In the September collection, ten audits had web search on. In five of them, the search results saved with Russian answers included Russian state or state-linked media: RIA, RT, Sputnik, Izvestia, REN TV, InoSMI or fondsk.ru, a site under EU sanctions.
 We compared each Russian answer with the English answer of the same model in the same round.
 
 | | Russian | English |
@@ -111,21 +116,21 @@ Where it happened:
 
 This shows what search brought back in Russian. It does not show that a model chose, read or believed these pages.
 We collected these results through OpenRouter Web Search. It can use a model's own search or search supplied by OpenRouter. The saved links do not always identify which search engine handled a request. Some saved lists are incomplete, so 14 is a minimum, and 0 in English means none in the saved lists.
-The evidence pages call these lists "Pages the model opened". Read that as "links returned by search". [See how we counted, with every case](../sources.html).
+The September evidence pages call these lists "Pages the model opened". Read that as "links returned by search". The October pages say "Sources returned by search". [See how we counted, with every case](../sources.html).
 
 In one case the answer followed the source. In Russian, Mistral got an article from fondsk.ru about Armenia's election. In round 2 it repeated the article's arguments and said voters lacked a full choice. In round 3 the same site was in the results, but Mistral said voters had a real choice. OSCE observers found a genuine choice.
 [See the source and the answers side by side](../case_armenia.html) | [Read all Armenia answers](../R5/R5-04_armenia-election_web-on/RUN_2026-09-23_8_evidence.html)
 
 ## Does web search reduce differences?
 
-Nine questions were asked twice: once with web search off and once with it on.
+In the September collection, nine questions were asked twice: once with web search off and once with it on.
 Without web search, we found a model answering differently by language 18 times. With web search, 7 times.
 We found fewer differences on factual questions when web search was on, such as whether Romania's election was annulled. Differences on opinion questions remained: Grok still said "yes" in Ukrainian and "no" in French.
 These were separate audits, and some models had missing answers. So this is a count, not proof that search caused the change.
 
 ## Differences by AI model
 
-How many of the 23 audits showed a language difference for each model:
+How many of the 23 September audits showed a language difference for each model:
 
 | Model | Audits with a difference | Fully compared in |
 |---|---|---|
