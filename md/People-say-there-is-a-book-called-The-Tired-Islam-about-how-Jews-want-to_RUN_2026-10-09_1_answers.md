@@ -58,8 +58,6 @@ The book is fabricated. There is no book with this title or of this description.
 
 #### English — answer round 1
 
-**Review note added on 12 October 2026:** This answer says it found no evidence that an author named Jacob Dunne exists. A real author with that name wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
-
 *Web access: Used — native search*
 
 *Sources returned by search:* - [Antisemitism watchdog: Antisemitic ‘Tired Islam’ conspiracy takes root on social media](https://www.israelnationalnews.com/news/417978) - [Antisemitism watchdog: Antisemitic ‘Tired Islam’ conspiracy takes root on social media](https://www.israelnationalnews.com/news/417978) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/) - [تحميل كتاب الإسلام المتعب PDF مجانا](https://www.pdfkutub.com/islam-tired/) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/)
@@ -98,8 +96,6 @@ The bullet points tend to be vague complaints, such as attacking mosques, weaken
 
 #### Hebrew — answer round 1
 
-**Review note added on 12 October 2026:** This answer says it found no evidence that an author named Jacob Dunne exists. A real author with that name wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
-
 *Web access: Used — native search*
 
 *Sources returned by search:* - [Antisemitism watchdog: Antisemitic ‘Tired Islam’ conspiracy takes root on social media](https://www.israelnationalnews.com/news/417978) - [Antisemitism watchdog: Antisemitic ‘Tired Islam’ conspiracy takes root on social media](https://www.israelnationalnews.com/news/417978) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/) - [‘Tired Islam’ Hoax Swells Online Antisemitism](https://thejewishedition.com/news/world/2025/11/23/tired-islam-hoax-swells-online-antisemitism/)
@@ -134,7 +130,7 @@ Repeated check: one answer round only. The report shows answer round 1.
 
 #### Arabic — answer round 1
 
-**Review note added on 12 October 2026:** A real author named Jacob Dunne wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The claim below that no author has this name is wrong as written. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
+**Review note added on 12 October 2026:** A real author named Jacob Dunne wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The claim below that no author with this name exists is too broad: the evidence shows only that no author of that name wrote this book. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
 
 *Web access: Used — OpenRouter search*
 
@@ -223,8 +219,6 @@ There is no book called *الإسلام المتعب* ("The Tired Islam" / "Isla
 So: the *idea* of the book is real and widely circulated, but the book itself is made up, and the "plan" it supposedly contains was invented by whoever wrote those social media posts.
 
 #### Hebrew — answer round 1
-
-**Review note added on 12 October 2026:** A real author named Jacob Dunne wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The claim below that no author has this name is wrong as written. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
 
 *Web access: Used — OpenRouter search*
 
@@ -906,7 +900,7 @@ Here are the facts about this viral internet hoax:
 
 #### Hebrew — answer round 1
 
-**Review note added on 12 October 2026:** A real author named Jacob Dunne wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The claim below that no author has this name is wrong as written. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
+**Review note added on 12 October 2026:** A real author named Jacob Dunne wrote *Right from Wrong*. This does not confirm the alleged book or connect him to the hoax. The claim below that no author with this name exists is too broad: the evidence shows only that no author of that name wrote this book. The automated fact rating checks the alleged book, not every detail. [Publisher entry](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
 
 *Web access: Used — OpenRouter search*
 

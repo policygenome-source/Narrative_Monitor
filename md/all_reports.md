@@ -4607,7 +4607,7 @@ The separate fact check
 
 ## Fact used for checking
 
-Review note added on 12 October 2026. Some answers say no author named Jacob Dunne exists. DeepSeek says so in Arabic and Hebrew, and Qwen in Hebrew. Claude says in English and Hebrew that it found no evidence he exists. A real author has that name. His memoir is Right from Wrong. This does not confirm the alleged book or connect him to the hoax. The fact rating checks the alleged book, not every detail. [Publisher entry for the real author ↗](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/) · DeepSeek Arabic answer ↗
+Review note added on 12 October 2026. Most answers say no author of that name wrote this book. That matches the fact below. Two answers go further and say no person named Jacob Dunne exists: DeepSeek in Arabic and Qwen in Hebrew. A real author has that name. His memoir is Right from Wrong. This does not confirm the alleged book or connect him to the hoax. The fact rating checks the alleged book, not every detail. [Publisher entry for the real author ↗](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/) · DeepSeek Arabic answer ↗
 
 The book commonly described online as The Tired Islam (الإسلام المتعب), allegedly written by Jacob or Yaakov Dunne and detailing a Jewish plan to destroy Islam, does not appear to exist; no matching work was found in the U.S. Library of Congress catalogue.
 

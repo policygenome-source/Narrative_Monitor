@@ -39,8 +39,8 @@ The 7 October check used a UN mission's finding: reasonable grounds to believe r
 It did not treat every individual allegation as proven.
 
 A fact match concerns the main checking claim. It does not verify every detail in an answer.
-For example, some book answers said no author named Jacob Dunne exists: DeepSeek in Arabic and Hebrew, and Qwen in Hebrew.
-Claude said in English and Hebrew that it found no evidence he exists.
+For example, most book answers said no author of that name wrote the alleged book.
+Two went further and said no person named Jacob Dunne exists: DeepSeek in Arabic and Qwen in Hebrew.
 A [publisher lists a real author with that name](https://www.harperreach.com/products/right-from-wrong-my-story-of-guilt-and-redemption-jacob-dunne-9780008472146/).
 This does not confirm the alleged book or connect him to the hoax.
 The report and evidence include dated corrections. The original answers remain available.
