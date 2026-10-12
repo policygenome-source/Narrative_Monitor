@@ -8,11 +8,11 @@ We tested three questions about the #Disinfo2026 conference in Vilnius and US in
 One question had no confirmed meaningful language difference.
 The other two had smaller differences, with important limits.
 
-| Question | Result |
-|---|---|
-| Why did the EU, Canada and Lithuania withdraw support? | Mistral showed a smaller difference in round 1. It did not repeat in the next two rounds. |
-| Did the US pressure its allies? | No meaningful language difference was confirmed. Gemini has a case that needs checking. |
-| Is the US a FIMI threat to Europe? | Qwen showed differences in three rounds. Its Russian conclusion changed, and search use differed between languages. |
+| Question | Result | Full audit |
+|---|---|---|
+| [Why did the EU, Canada and Lithuania withdraw support?](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2.html) | Mistral showed a smaller difference in round 1. It did not repeat in the next two rounds. | [Report](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2.html) · [All answers](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2_evidence.html) |
+| [Did the US pressure its allies?](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3.html) | No meaningful language difference was confirmed. Gemini has a case that needs checking. | [Report](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3.html) · [All answers](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3_evidence.html) |
+| [Is the US a FIMI threat to Europe?](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4.html) | Qwen showed differences in three rounds. Its Russian conclusion changed, and search use differed between languages. | [Report](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4.html) · [All answers](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html) |
 
 FIMI means foreign information manipulation and interference.
 The first two questions concern EU DisinfoLab's conference. They are not audits of the organisation or of EUvsDisinfo.
@@ -71,9 +71,9 @@ Research prototype. Automated checks and translations can miss details. Use the 
 
 ## Reports and full answers
 
-- [Withdrawal reasons](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2.html)
-- [US pressure](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3.html)
-- [US as a FIMI threat](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4.html)
+- Withdrawal reasons: [Report](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2.html) · [All answers](../R8/R8-01_disinfo2026-withdrawal_web-on/RUN_2026-10-08_2_evidence.html)
+- US pressure: [Report](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3.html) · [All answers](../R8/R8-02_disinfo2026-us-pressure_web-on/RUN_2026-10-08_3_evidence.html)
+- US as a FIMI threat: [Report](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4.html) · [All answers](../R8/R8-03_us-fimi-threat_web-on/RUN_2026-10-08_4_evidence.html)
 
 Each report links to every saved answer, including repeated rounds and cases that need checking.
 
