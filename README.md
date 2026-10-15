@@ -8,10 +8,10 @@ Six further audits were collected on 8 and 9 October 2026, with 214 saved answer
 
 ## Start here
 
-- **Website:** https://policygenome-source.github.io/Narrative_Monitor/
-- **Method & limits:** [overview.html](https://policygenome-source.github.io/Narrative_Monitor/overview.html)
-- **October series:** [Conference and FIMI](https://policygenome-source.github.io/Narrative_Monitor/series_disinfo2026.html) · [Antisemitism-related claims](https://policygenome-source.github.io/Narrative_Monitor/series_antisemitism.html)
-- **Sources:** [sources.html](https://policygenome-source.github.io/Narrative_Monitor/sources.html)
+- **Website:** https://narrativemonitor.policygenome.org/
+- **Method & limits:** [overview.html](https://narrativemonitor.policygenome.org/overview.html)
+- **October series:** [Conference and FIMI](https://narrativemonitor.policygenome.org/series_disinfo2026.html) · [Antisemitism-related claims](https://narrativemonitor.policygenome.org/series_antisemitism.html)
+- **Sources:** [sources.html](https://narrativemonitor.policygenome.org/sources.html)
 - **Ask questions about the study in NotebookLM:** https://notebook.google.com/notebook/e2a20d9b-c928-49aa-b794-d1e030728543
 
 NotebookLM can make mistakes. Check its answers against the original answers in the reports.
